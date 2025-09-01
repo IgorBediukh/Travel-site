@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normilize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Document</Travel></title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a class="logo">
+                    <img class="logo-img" src="images/logo.svg" alt="логотип сайта">
+                </a>
+                <ul class="menu">
+                    <li class="menu-item">
+                    <a class="menu-link" href="https://www.poehalisnami.ua/ua/tour">Всі тури</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Відгуки</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Контакти</a>
+                </li>
+            </ul>
+            <a class="burger">
+                <img class="burger" src="images/burger.svg" alt="burger">
+            </a>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="new-list">
+        <div class="headline">
+            <img src="images/headline.png" alt="" class="headline-img"> 
+            <p class="tittle">Відкрий Австралію з іншої сторони</p>
+    </div>
+</section>
+<div class="youvid">
+    <iframe width="450" height="250" src="https://www.youtube.com/embed/2QVwEWIKMI8" title="Sydney in 8K ULTRA HD - Heaven of Australia (60 FPS)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <video width="400" height="210" controls
+        controls
+           src="./images/This is Sydney, Australia - Welcome to travel _ Cinematic video.mp4"></video>>
+</div>
+<div class="youaud">
+    <audio
+            controls
+            src="./images/Ooyy - Thunderbird_.mp3"> </audio>
+</div>
+<div class="navigate">
+<div class="swiper mySwiper">
+    
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./images/imgIsland 1 (2).png"></div>
+                  <div class="swiper-slide"><img src="./images/imgIsland 1.png"></div>
+                  <div class="swiper-slide"><img src="./images/imgIsland 1 (1).png"></div>
+                  
+              </div>
+              <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+
+          <script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: true,
+
+  });
+</script>
+</div>
+    </main>
+</body>
+</html>
